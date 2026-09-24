@@ -1,0 +1,15 @@
+{
+  "repo": "wan3.0video-wan-3.0-video-api",
+  "model": "wan3.0-video",
+  "display": "Wan 3.0 Video",
+  "variant": "api",
+  "snapshot": "2026-09-24",
+  "unit": "usd_per_second",
+  "tiers": {
+    "480P": 0.03288,
+    "720P": 0.065752,
+    "default": 0.131504,
+    "1080P": 0.131504
+  },
+  "source": "https://apimart.ai/en/pricing"
+}
