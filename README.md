@@ -36,11 +36,12 @@ Endpoint: `POST https://api.apimart.ai/v1/videos/generations` (OpenAI-compatible
 ## Pricing
 
 <!-- pricing:model:start -->
-| Resolution | List price | Effective price |
+| Output | List price | Effective price |
 | --- | --- | --- |
-| per generated second | — | see the live pricing page |
+| default | $0.0375 | $0.03 |
+| 4K | $0.05 | $0.04 |
 
-
+The token-billed official route bills per million tokens instead: `text_input` $1.60, `cached_text_input` free, `image_input` $1.60, `cached_image_input` free, `text_output` $9.60, `image_output` $96.00.
 <!-- pricing:model:end -->
 
 Prices are a snapshot; the [pricing page](https://go.apimart.ai/k-668337) and [`data/model.json`](data/model.json) are refreshed by CI, and a completed task reports the exact amount in its `cost` field.
