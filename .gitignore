@@ -1,3 +1,6 @@
 __pycache__/
+*.pyc
+out/
 .env
-.DS_Store
+.venv/
+node_modules/

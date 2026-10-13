@@ -1,0 +1,10 @@
+{
+  "id": "wan-3.0-video",
+  "source": "https://apimart.ai/en/pricing",
+  "extracted_at": "2026-10-13T02:58:46Z",
+  "prices": {},
+  "rates": {},
+  "unit": null,
+  "hook": "from $0.0329 per second at 480P (720P $0.0658 · 1080P $0.1315)",
+  "model_page": "https://apimart.ai/model/wan-3-0"
+}
